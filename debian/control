@@ -1,0 +1,20 @@
+Source: duf
+Section: unknown
+Priority: optional
+Maintainer: Christian Muehlhaeuser <muesli@gmail.com>
+Build-Depends: debhelper (>=11~), golang-go,dh-golang
+Rules-Requires-Root: no 
+Standards-Version: 4.1.4
+Homepage: https://github.com/muesli/duf/
+
+Package: duf
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Disk Usage/Free Utility
+ User-friendly, colorful output
+ Adjusts to your terminal's width
+ Sort the results according to your needs
+ Groups & filters devices
+ Can conveniently output JSON
+
